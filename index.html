@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sattar Mafakheri" >
+    <meta name="description" content="this is page for web development" >
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/all.css">
+    <title>Js training</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">
+                    <i class="fa-solid fa-user-tie"></i>
+                    <button id="btn-form">فرم ثبت نام</button>
+                </div>
+
+                <div class="parent-list">
+                    <ul class="list" id="list">
+                     <li><a href="https://www.digikala.com/" target="blank">برو به دیجیکالا</a></li>
+                     <li><a href="https://www.amazon.com/" target="_blank">برو به امازون</a></li>
+                     <li><a href="https://torob.com" target="_blank">برو به ترب</a></li>
+                     <li><a href="https://divar.ir/" target="_blank">برو به دیوار</a></li>
+                    </ul>
+                </div>
+            
+                <div class="parent-bar">
+                  <div class="bar-menu" id="menu-bar">
+                    <div id="first-bar"></div>
+                    <div id="opacity-bar"></div>
+                    <div id="last-bar"></div>
+                  </div>
+               </div>
+            </nav>
+        </header>
+
+
+        <section>
+            <div class="parent-img">
+                <img src="image/austin-distel-21GWwco-JBQ-unsplash.jpg" alt="">
+                <img src="image/jason-ortego-TznjqhCHR9g-unsplash.jpg" alt="">
+                <img src="image/pexels-ahmed-9812128.jpg" alt="">
+                <img src="image/pexels-abdullah-ghatasheh-1631677.jpg" alt="">
+                <img src="image/traxer-4PljbcYIzyE-unsplash.jpg" alt="">
+                <img src="image/pierre-borthiry-peiobty-vBCVcWUyvyM-unsplash.jpg" alt="">
+                <img src="image/pexels-waseem-kahlool-673021.jpg" alt="" loading="lazy">
+                <img src="image/pexels-serkan-bayraktar-8003049.jpg" alt="" loading="lazy">
+                <img src="image/pexels-ahmed-9812128.jpg" alt="" loading="lazy">
+
+            </div>
+
+        </section>
+
+
+        <main>
+
+            <div class="fildest">
+                <fieldset>
+                    <legend>لطفا پیشنهادات و انتقادات خود را ثبت کنید</legend>
+                    <textarea placeholder="انتقادات و پیشنهادات خود را بنویسید" class="textarea" id="text-area"></textarea>
+                    <button class="btn" id="btn">ثبت نظر</button>
+                  
+                </fieldset>
+                <div class="stori" id="stori">
+                        
+                </div>
+            </div>
+
+        </main>
+
+
+        <div class="login-form" id="login-form">
+
+            <form class="form" name="forms">
+                <h1>فرم ثبت نام</h1>
+
+                <p>
+                 
+                    نام کاربری: <br>
+                    <input type="text" id="name" placeholder="اسم خود را وارد کنید" required>
+                </p>
+
+                <p>
+                  
+                 ایمیل: <br>
+                    <input type="email" id="email" placeholder=" mafakhersattar@gmail.com" required>
+                </p>
+
+
+                <p>
+                 
+                   رمزعبور: <br>
+                    <input type="password" id="pass" placeholder=" *******" required>
+                </p>
+
+                <p>
+                   
+                    شماره تماس: <br>
+                     <input type="number" id="num" placeholder=" 09036139085" required>
+                </p>
+
+                <button id="btn-submit">ثبت اطلاعات</button>
+
+
+            </form>
+
+        </div>
+    </div>
+ 
+<script src="script.js"></script>
+</body>
+</html>
